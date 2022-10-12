@@ -2,15 +2,13 @@ package com.benorim.excusegeneratorapi.Util;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class NumbersUtilTest {
 
     @Test
     void getRandomNumber() {
-        int randomNumber = NumbersUtil.getRandomNumber(3);
-        assertTrue(List.of(0, 1, 2).contains(randomNumber));
+        int randomNumber = NumbersUtil.getRandomNumber(1);
+        assertEquals(0, randomNumber);
     }
 }
