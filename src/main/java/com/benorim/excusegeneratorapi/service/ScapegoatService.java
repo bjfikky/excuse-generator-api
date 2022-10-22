@@ -18,7 +18,7 @@ public class ScapegoatService {
 
     public Scapegoat getRandomScapegoat() {
         List<Scapegoat> allScapegoats = getAllScapegoats();
-        return allScapegoats.get(NumbersUtil.getRandomNumber(allScapegoats.size()));
+        return allScapegoats.size() > 1 ? allScapegoats.get(NumbersUtil.getRandomNumber(allScapegoats.size())) : null;
     }
 
     public List<Scapegoat> getAllScapegoats() {
