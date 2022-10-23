@@ -1,4 +1,4 @@
-package com.benorim.excusegeneratorapi.api.response;
+package com.benorim.excusegeneratorapi.api.response.scapegoat;
 
 public class ScapegoatResponse {
     private String scapegoat;

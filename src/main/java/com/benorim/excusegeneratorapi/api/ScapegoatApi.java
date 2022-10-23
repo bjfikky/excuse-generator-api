@@ -1,7 +1,7 @@
 package com.benorim.excusegeneratorapi.api;
 
-import com.benorim.excusegeneratorapi.api.response.ScapegoatListResponse;
-import com.benorim.excusegeneratorapi.api.response.ScapegoatResponse;
+import com.benorim.excusegeneratorapi.api.response.scapegoat.ScapegoatListResponse;
+import com.benorim.excusegeneratorapi.api.response.scapegoat.ScapegoatResponse;
 import com.benorim.excusegeneratorapi.model.Scapegoat;
 import com.benorim.excusegeneratorapi.service.ScapegoatService;
 import org.springframework.http.ResponseEntity;
